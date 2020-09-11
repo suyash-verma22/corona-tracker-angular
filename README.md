@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# Procedure
+
+## Create component navbar >> ng g c components/navbar
+
+>Select any navbar code from getbootstrap/documentation/navbar and paste the code in compnents/navbar/navbar.component.html
+>Create <app-navbar></app-navbar> in app.component.html , you cam get name of components from its ts file
+>Make that in app.module.ts their is entry of navbarcomponent
+
+## Create component home >> ng g c components/home
+
+
